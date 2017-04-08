@@ -1,0 +1,144 @@
+body {
+  background: #ffffff;
+  color: #000000;
+  font-family: Montserrat, Arial;
+}
+a {
+  text-decoration: none;
+  color: #00ff87;
+  border-bottom: 3px solid #00ff87;
+}
+.nav {
+  background: #515151;
+  list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+.nav-left {
+  float: left;
+  width: 800px;
+}
+.nav-right {
+  float: right;
+  display: block;
+  display: inline;
+}
+.nav-li-r {
+  display: block;
+  padding: 15px;
+  height: 20px;
+  color: #ffffff;
+}
+.nav-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.nav-li {
+  display: block;
+  float: left;
+  height: 20px;
+  color: #ffffff;
+  padding: 15px;
+}
+.nav-li-l {
+  transition: ease-in 100ms;
+  padding: 15px;
+}
+.nav-li:hover {
+  background: #00ff87;
+}
+.nav-li-a {
+  display: block;
+  border: none;
+  color: #ffffff;
+}
+.home {
+  width: 20px;
+  height: 20px;
+}
+.search-nav {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: none;
+  margin-right: 15px;
+  border: none;
+  border-bottom: 3px solid #ffffff;
+  background: none;
+  transition: ease-in 100ms;
+  width: 100px;
+  color: #ffffff;
+}
+.search-nav-textbox:focus {
+  width: 500px;
+}
+.head {
+  height: 750px;
+}
+.bio {
+  margin-top: auto;
+  text-align: center;
+  display: inline;
+  overflow: hidden;
+  font-size: 40px;
+  margin-top: 500px;
+}
+.eli-title {
+  color: #00ff87;
+}
+.restofbio {
+  font-size: 20px;
+}
+.specs {
+  list-style-type: none;
+}
+.fa {
+  transition: ease-in 100ms;
+  color: #ffffff;
+  border: none;
+  margin: 10px;
+}
+.no {
+  border: none;
+}
+.fa-twitter:hover {
+  color: #43bfe7;
+}
+.fa-github:hover {
+  color: #515151;
+}
+.fa-facebook:hover {
+  color: #1e72bf;
+}
+.fa-youtube-play:hover {
+  color: #d03838;
+}
+::selection {
+  color: #ffffff;
+  background: #00ff87;
+}
+.small-bio::selection {
+  color: #ffffff;
+  background: #00ff87;
+}
+.app-card {
+  box-shadow: 0px 5px 15px #888888;
+  border: none;
+  width: 300px;
+  text-align: center;
+  color: black;
+  margin: auto;
+}
+.big-app-title {
+  padding-bottom: 50px;
+  color: #000000;
+}
+.apps {
+  text-align: center;
+  margin-top: 100px;
+}
